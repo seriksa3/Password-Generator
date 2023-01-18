@@ -3,7 +3,7 @@ var specialCharacters = [
     '@',
     '%',
     '+',
-    '\\',
+    "\\",
     '/',
     "'",
     '!',
@@ -90,7 +90,9 @@ var specialCharacters = [
   
   // Function to prompt user for password options
   function getPasswordOptions() {
-  
+    for(let a = 0; a>specialCharacters.length;a++){
+        var passwordCharacter = specialCharacters[a];
+    }
   }
   
   // Function for getting a random element from an array
@@ -100,7 +102,7 @@ var specialCharacters = [
   
   // Function to generate password with user input
   function generatePassword() {
-  
+
   }
   
   // Get references to the #generate element
